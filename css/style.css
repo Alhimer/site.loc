@@ -332,6 +332,7 @@ H2 {
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .cam img {
@@ -356,6 +357,7 @@ H2 {
 .cam:hover {
     background: #35D5C3;
     border-radius: 4px;
+    
 }
 
 .cam p {
@@ -383,6 +385,7 @@ H2 {
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .skud img {
@@ -434,6 +437,7 @@ H2 {
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .shlak img {
@@ -485,6 +489,7 @@ H2 {
    border: 1px solid #E5E5E5;
    box-sizing: border-box;
    border-radius: 4px;
+   cursor: pointer;
 }
 
 .sks img {
