@@ -1,17 +1,17 @@
 .wrapper {
     margin: 0 auto;
     max-width: 1920px;
-    height: 2000px;
+    height: 3000px;
     border: 1px solid #000;
 }
 
 /*! Шапка сайта ------------------------------------------------------*/
 
 .header_logo {
+    position: relative;
     height: 53px;
     top: 79px;
     left: 455px;
-    position: absolute;
     z-index: 100;
 }
 
@@ -285,7 +285,7 @@ H2 {
 /* !Раздел услуги ---------------------------------------------------------------*/
 
 .usl {
-    position: absolute;
+    position: relative;
     width: 602px;
     height: 93px;
     left: 659px;
@@ -550,8 +550,50 @@ H2 {
 
 /* ! Начало блока Этапы работы---------------------------------------- */
 
+.heading {
+    position: relative;
+    width: 550px;
+    height: 93px;
+    left: 659px;
+    top: 1508px;
+}
 
+.heading p {
+   position: absolute;
+   left: 33.81%;
+   right: 33.83%;
+   top: 0%;
+   bottom: 66.67%;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 130%;
+   text-align: center;
+   color: #32323B;
+}
 
+.heading h3 {
+    position: absolute;
+    left: 12.36%;
+    right: 12.36%;
+    top: 54.84%;
+    bottom: 0%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+     text-align: center;
+    color: #1D1D20;
+}
+
+.chel {
+position: relative;
+left: 353px;
+right: 1062px;
+top: 1831px;
+}
 
 
 /* ! Конец блока Этапы работы----------------------------------------- */
