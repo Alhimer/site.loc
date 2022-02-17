@@ -9,10 +9,9 @@
 
 .header_logo {
     height: 53px;
-
     top: 79px;
     left: 455px;
-    position: relative;
+    position: absolute;
     z-index: 100;
 }
 
@@ -76,7 +75,6 @@ H2 {
     text-align: center;
     color: #000000;
     justify-content: center;
-
 }
 
 .header_button:hover {
@@ -276,12 +274,10 @@ H2 {
         opacity: 1;
         transform: translateY(0px);
     }
-
     100% {
         opacity: 0;
         transform: translateY(20px);
     }
-
 }
 
 /* !Конец шапки сайта -----------------------------------------------------------*/
