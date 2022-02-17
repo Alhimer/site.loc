@@ -317,9 +317,9 @@ H2 {
     color: #1D1D20;
 }
 
-/* .block_uslugi {
+.block_uslugi {
     position: absolute;
-} */
+}
 
 .cam {
     position: absolute;
@@ -357,15 +357,14 @@ H2 {
 .cam:hover {
     background: #35D5C3;
     border-radius: 4px;
-    
 }
 
 .cam p {
     position: absolute;
-    height: 70px;
-    width: 284px;
-    left: 6px;
-    top: 220px;
+    left: 4%;
+    right: 4%;
+    top: 74%;
+    bottom: 10%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -373,6 +372,10 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #32323B;
+}
+
+.cam:hover .block {
+    display: block;
 }
 
 .skud {
@@ -414,10 +417,10 @@ H2 {
 
 .skud p {
     position: absolute;
-    left: 2.03%;
-    right: 2.03%;
-    top: 74.32%;
-    bottom: 2.03%;
+    left: 7%;
+    right: 7%;
+    top: 74%;
+    bottom: 3.4%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -425,6 +428,10 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #32323B;
+}
+
+.skud:hover .block {
+    display: block;
 }
 
 .shlak {
@@ -479,21 +486,25 @@ H2 {
     color: #32323B;
 }
 
+.shlak:hover .block {
+    display: block;
+}
+
 .sks {
-   position: absolute;
-   width: 296px;
-   height: 296px;
-   left: 1271px;
-   top: 1122px;
-   background: #FFFFFF;
-   border: 1px solid #E5E5E5;
-   box-sizing: border-box;
-   border-radius: 4px;
-   cursor: pointer;
+    position: absolute;
+    width: 296px;
+    height: 296px;
+    left: 1271px;
+    top: 1122px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .sks img {
-    position: relative;
+    position: absolute;
     height: 122px;
     width: 122px;
     left: 87px;
@@ -511,17 +522,25 @@ H2 {
     border-radius: 50%;
 }
 
-.sks:hover {
+.block {
     background: #35D5C3;
-    border-radius: 4px;
+    position: absolute;
+    height: 348px;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+    display: none;
+}
+
+.sks:hover .block {
+    display: block;
 }
 
 .sks p {
     position: absolute;
-    left: 2.03%;
-    right: 2.03%;
-    top: 74.32%;
-    bottom: 2.03%;
+    left: 4%;
+    right: 4%;
+    top: 74%;
+    bottom: 4%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
