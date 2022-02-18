@@ -10,6 +10,7 @@
 .header_logo {
     position: relative;
     height: 53px;
+    width: 245px;
     top: 79px;
     left: 455px;
     z-index: 100;
@@ -590,6 +591,8 @@ H2 {
 
 .chel {
 position: relative;
+width: 505px;
+height: 412px;
 left: 353px;
 right: 1062px;
 top: 1831px;
@@ -608,8 +611,6 @@ top: 1831px;
     
    height: 60px;
    width: 245px;
-   X: 1032px;
-   Y: 1691px;
     border-color: #F9ED37;
     position: absolute;
     text-decoration: none;
