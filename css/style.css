@@ -1,7 +1,7 @@
 .wrapper {
     margin: 0 auto;
     max-width: 1920px;
-    height: 3000px;
+    height: 5000px;
     border: 1px solid #000;
 }
 
@@ -275,6 +275,7 @@ H2 {
         opacity: 1;
         transform: translateY(0px);
     }
+
     100% {
         opacity: 0;
         transform: translateY(20px);
@@ -560,18 +561,18 @@ H2 {
 }
 
 .heading p {
-   position: absolute;
-   left: 33.81%;
-   right: 33.83%;
-   top: 0%;
-   bottom: 66.67%;
-   font-family: Montserrat;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 24px;
-   line-height: 130%;
-   text-align: center;
-   color: #32323B;
+    position: absolute;
+    left: 33.81%;
+    right: 33.83%;
+    top: 0%;
+    bottom: 66.67%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #32323B;
 }
 
 .heading h3 {
@@ -585,17 +586,17 @@ H2 {
     font-weight: 500;
     font-size: 32px;
     line-height: 130%;
-     text-align: center;
+    text-align: center;
     color: #1D1D20;
 }
 
 .chel {
-position: relative;
-width: 505px;
-height: 412px;
-left: 353px;
-right: 1062px;
-top: 1831px;
+    position: relative;
+    width: 505px;
+    height: 412px;
+    left: 353px;
+    right: 1062px;
+    top: 1831px;
 }
 
 .steps {
@@ -603,14 +604,12 @@ top: 1831px;
     width: 602px;
     height: 441px;
     left: 965px;
-   
     border: 1px solid red;
 }
 
 .steps_button {
-    
-   height: 60px;
-   width: 245px;
+    height: 60px;
+    width: 245px;
     border-color: #F9ED37;
     position: absolute;
     text-decoration: none;
@@ -636,5 +635,39 @@ top: 1831px;
     background: #FCC02A;
 }
 
+.one {
+    position: absolute;
+    left: 0%;
+    right: 57.89%;
+    top: -10.29%;
+    bottom: -11.76%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 130%;
+    /* or 83px */
+
+    display: flex;
+    align-items: center;
+
+    /* Зеленый */
+
+    color: #35D5C3;
+}
 
 /* ! Конец блока Этапы работы----------------------------------------- */
+
+/* ! Блок История *-----------------------------------------------------*/
+
+.fon_history {
+  position: relative;
+  width: 1920px;
+  height: 1245px;
+  left: 0px;
+  top: 2132px;
+}
+
+
+/* ! Конец блока История ----------------------------------------------*/
