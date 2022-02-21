@@ -554,10 +554,11 @@ H2 {
 
 .heading {
     position: relative;
-    width: 550px;
+    width: 650px;
     height: 93px;
     left: 659px;
     top: 1508px;
+    border: 1px solid red;
 }
 
 .heading p {
@@ -573,6 +574,7 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #32323B;
+    border: 1px solid red;
 }
 
 .heading h3 {
@@ -588,6 +590,7 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #1D1D20;
+    border: 1px solid red;
 }
 
 .chel {
@@ -597,21 +600,24 @@ H2 {
     left: 353px;
     right: 1062px;
     top: 1831px;
+    border: 1px solid red;
 }
 
 .steps {
-    position: absolute;
+    position: relative;
+    top: 1690px;
     width: 602px;
     height: 441px;
     left: 965px;
     border: 1px solid red;
+    margin-top: 0px;
 }
 
 .steps_button {
     height: 60px;
     width: 245px;
     border-color: #F9ED37;
-    position: absolute;
+    position: relative;
     text-decoration: none;
     background: #F9ED37;
     border-radius: 4px;
@@ -625,6 +631,7 @@ H2 {
     text-align: center;
     color: #000000;
     justify-content: center;
+    border: 1px solid red;
 }
 
 .steps_button:hover {
@@ -641,19 +648,13 @@ H2 {
     right: 57.89%;
     top: -10.29%;
     bottom: -11.76%;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
     line-height: 130%;
-    /* or 83px */
-
     display: flex;
     align-items: center;
-
-    /* Зеленый */
-
     color: #35D5C3;
 }
 
