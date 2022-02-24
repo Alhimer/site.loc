@@ -290,10 +290,9 @@ H2 {
     position: absolute;
     width: 650px;
     height: 93px;
-    left: 659px;
+    left: 685px;
     top: 939px;
-    text-align: center;
-    border: 1px solid red;
+    text-align: justify;
 }
 
 .u {
@@ -305,13 +304,12 @@ H2 {
     font-weight: 500;
     font-size: 24px;
     line-height: 130%;
-    text-align: center;
     color: #32323B;
-    border: 1px solid red;
+    text-align: justify;
 }
 
 .pred {
-    position: absolute;
+    position: relative;
     width: 600px;
     left: 12.36%;
     right: 12.36%;
@@ -322,9 +320,8 @@ H2 {
     font-weight: 500;
     font-size: 32px;
     line-height: 130%;
-    text-align: center;
     color: #1D1D20;
-    border: 1px solid red;
+    text-align: justify;
 }
 
 .cam {
@@ -621,10 +618,10 @@ H2 {
 }
 
 .steps_button {
+    position: relative;
     height: 60px;
     width: 245px;
     border-color: #F9ED37;
-    position: relative;
     text-decoration: none;
     background: #F9ED37;
     border-radius: 4px;
@@ -650,7 +647,7 @@ H2 {
 }
 
 .one {
-    position: absolute;
+    position: relative;
     left: 0%;
     right: 57.89%;
     top: -10.29%;
@@ -670,7 +667,7 @@ H2 {
 /* ! Блок История *-----------------------------------------------------*/
 
 .fon_history {
-  position: relative;
+  position: absolute;
   width: 1920px;
   height: 1245px;
   left: 0px;
