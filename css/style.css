@@ -308,10 +308,12 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #32323B;
+    border: 1px solid red;
 }
 
 .pred {
     position: absolute;
+    width: 600px;
     left: 12.36%;
     right: 12.36%;
     top: 54.84%;
@@ -323,6 +325,7 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #1D1D20;
+    border: 1px solid red;
 }
 
 .cam {
