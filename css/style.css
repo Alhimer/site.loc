@@ -288,15 +288,19 @@ H2 {
 /* !Раздел услуги ---------------------------------------------------------------*/
 
 .usl {
-    position: relative;
-    width: 602px;
+    position: absolute;
+    width: 650px;
     height: 93px;
     left: 659px;
     top: 939px;
     text-align: center;
+    border: 1px solid red;
 }
 
 .u {
+    position: absolute;
+    left: 33.81%;
+    right: 33.83%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -307,6 +311,11 @@ H2 {
 }
 
 .pred {
+    position: absolute;
+    left: 12.36%;
+    right: 12.36%;
+    top: 54.84%;
+    bottom: 0%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -314,10 +323,6 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #1D1D20;
-}
-
-.block_uslugi {
-    position: absolute;
 }
 
 .cam {
