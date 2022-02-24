@@ -3,7 +3,6 @@
     max-width: 1920px;
     height: 5000px;
     border: 1px solid #000;
-    position: relative;
 }
 
 /*! Шапка сайта ------------------------------------------------------*/
@@ -562,7 +561,7 @@ H2 {
 /* ! Начало блока Этапы работы---------------------------------------- */
 
 .heading {
-    position: relative;
+    position: absolute;
     width: 650px;
     height: 93px;
     left: 659px;
