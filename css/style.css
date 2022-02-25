@@ -652,7 +652,7 @@ H2 {
     position: absolute;
     top: 70px;
     width: 535px;
-    height: 26px;
+    height: 46px;
     left: 67px;
     font-family: Montserrat;
     font-style: normal;
@@ -683,6 +683,44 @@ H2 {
 }
 
 .two {
+    width: 67px;
+    height: 57px;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #35D5C3;
+    border: 1px solid red;
+}
+
+.three {
+    width: 67px;
+    height: 57px;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #35D5C3;
+    border: 1px solid red;
+}
+
+.four {
     width: 67px;
     height: 57px;
     position: relative;
