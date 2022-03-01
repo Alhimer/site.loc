@@ -622,7 +622,7 @@ H2 {
     position: relative;
     height: 60px;
     width: 245px;
-    left: 67px;
+    left: calc(50% - 245px/2 - 111.5px);
     border-color: #F9ED37;
     text-decoration: none;
     background: #F9ED37;
@@ -652,7 +652,7 @@ H2 {
     position: absolute;
     top: 70px;
     width: 535px;
-    height: 46px;
+    height: 20px;
     left: 67px;
     font-family: Montserrat;
     font-style: normal;
@@ -670,7 +670,7 @@ H2 {
     left: 0%;
     right: 57.89%;
     top: -10.29%;
-    bottom: -11.76%;
+    bottom: -11%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -688,8 +688,8 @@ H2 {
     position: relative;
     left: 0%;
     right: 0%;
-    top: 0%;
-    bottom: 0%;
+    top: 1%;
+    bottom: -11%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -707,7 +707,7 @@ H2 {
     position: relative;
     left: 0%;
     right: 0%;
-    top: 0%;
+    top: 12%;
     bottom: 0%;
     font-family: Montserrat;
     font-style: normal;
@@ -726,7 +726,7 @@ H2 {
     position: relative;
     left: 0%;
     right: 0%;
-    top: 0%;
+    top: 22%;
     bottom: 0%;
     font-family: Montserrat;
     font-style: normal;
@@ -744,7 +744,6 @@ h4 {
     width: 535px;
     height: 36px;
     left: 67px;
-    top: 0px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -753,8 +752,6 @@ h4 {
     color: #1D1D20;
     border: 1px solid red;
 }
-
-
 
 /* ! Конец блока Этапы работы----------------------------------------- */
 
