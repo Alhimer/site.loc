@@ -21,6 +21,7 @@
     position: absolute;
     height: 875px;
     top: 0px;
+    left: 0px;
 }
 
 .header_bac {
@@ -293,12 +294,11 @@ H2 {
     height: 93px;
     left: 685px;
     top: 939px;
-    text-align: justify;
 }
 
 .u {
     position: absolute;
-    left: 33.81%;
+    left: 40%;
     right: 33.83%;
     font-family: Montserrat;
     font-style: normal;
@@ -952,7 +952,6 @@ ul li:before {
     text-align: center;
     color: #32323B;
     border: 1px solid red;
-
 }
 
 .customers_head h3 {
@@ -970,4 +969,59 @@ ul li:before {
     border: 1px solid red;
 }
 
+.customers_logo {
+    position: absolute;
+    width: 1009px;
+    height: 166px;
+    left: 455px;
+    top: 3625px;
+    border: 1px solid red;
+}
+
 /* ! Конец блока Клиенты ----------------------------------------------*/
+
+/* ! Блок Отзывы ----------------------------------------------------- */
+
+.reviews {
+    position: absolute;
+    width: 550px;
+    height: 93px;
+    left: 685px;
+    top: 3881px;
+    border: 1px solid red;
+}
+
+.reviews p {
+    position: absolute;
+    left: 41.08%;
+    right: 40.92%;
+    top: 0%;
+    bottom: 66.67%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #32323B;
+    border: 1px solid red;
+}
+
+.reviews h3 {
+    position: absolute;
+    left: 25.27%;
+    right: 25.09%;
+    top: 54.84%;
+    bottom: 0%;
+    width: 300px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    color: #1D1D20;
+    border: 1px solid red;
+}
+
+/* ! Конец блока Отзывы ---------------------------------------------- */
