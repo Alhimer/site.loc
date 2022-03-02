@@ -833,7 +833,6 @@ H2 {
     height: 93px;
     left: 685px;
     top: 2422px;
-    border: 1px solid red;
 }
 
 .history_head p {
@@ -849,7 +848,6 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #FFFFFF;
-    border: 1px solid red;
 }
 
 .history_head h3 {
@@ -866,7 +864,6 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #FFFFFF;
-    border: 1px solid red;
 }
 
 .content {
@@ -874,14 +871,13 @@ H2 {
     width: 1010px;
     height: 194px;
     left: 455px;
-    top: 2605px;
+    top: 2590px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 130%;
     color: #FFFFFF;
-    border: 1px solid red;
 }
 
 .point {
@@ -896,7 +892,6 @@ H2 {
     font-size: 17px;
     line-height: 220%;
     color: #FFFFFF;
-    border: 1px solid red;
 }
 
 ul {
@@ -916,6 +911,18 @@ ul li:before {
     position: absolute;
 }
 
-
+.content_bottom p {
+    position: absolute;
+    width: 1010px;
+    height: 68px;
+    left: 0px;
+    top: 400px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
 
 /* ! Конец блока История ----------------------------------------------*/
