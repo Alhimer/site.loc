@@ -926,3 +926,48 @@ ul li:before {
 }
 
 /* ! Конец блока История ----------------------------------------------*/
+
+/* ! Блок Клиенты -----------------------------------------------------*/
+
+.customers_head {
+    position: absolute;
+    width: 550px;
+    height: 93px;
+    left: 685px;
+    top: 3442px;
+    border: 1px solid red;
+}
+
+.customers_head p {
+    position: absolute;
+    left: 39.81%;
+    right: 39.83%;
+    top: 0%;
+    bottom: 66.67%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #32323B;
+    border: 1px solid red;
+
+}
+
+.customers_head h3 {
+    position: absolute;
+    left: 27.82%;
+    right: 27.64%;
+    top: 54.84%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    color: #1D1D20;
+    border: 1px solid red;
+}
+
+/* ! Конец блока Клиенты ----------------------------------------------*/
