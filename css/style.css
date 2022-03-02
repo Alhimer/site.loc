@@ -564,7 +564,6 @@ H2 {
     height: 93px;
     left: 659px;
     top: 1508px;
-    border: 1px solid red;
 }
 
 .heading p {
@@ -580,7 +579,6 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #32323B;
-    border: 1px solid red;
 }
 
 .heading h3 {
@@ -596,7 +594,6 @@ H2 {
     line-height: 130%;
     text-align: center;
     color: #1D1D20;
-    border: 1px solid red;
 }
 
 .chel {
@@ -606,7 +603,6 @@ H2 {
     left: 353px;
     right: 1062px;
     top: 1831px;
-    border: 1px solid red;
 }
 
 .steps {
@@ -615,7 +611,6 @@ H2 {
     width: 602px;
     height: 441px;
     left: 965px;
-    border: 1px solid red;
 }
 
 .steps_button {
@@ -637,7 +632,6 @@ H2 {
     text-align: center;
     color: #000000;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .steps_button:hover {
@@ -648,9 +642,9 @@ H2 {
     background: #FCC02A;
 }
 
-.steps p {
+.one p {
     position: absolute;
-    top: 70px;
+    top: 95%;
     width: 535px;
     height: 20px;
     left: 67px;
@@ -660,7 +654,51 @@ H2 {
     font-size: 17px;
     line-height: 130%;
     color: #32323B;
-    border: 1px solid red;
+}
+
+.two p {
+    position: absolute;
+    top: 51.11%;
+    width: 535px;
+    height: 20px;
+    left: 67px;
+    margin-top: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    color: #32323B;
+}
+
+.three p {
+    position: absolute;
+    top: 51.11%;
+    width: 535px;
+    height: 20px;
+    left: 67px;
+    margin-top: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    color: #32323B;
+}
+
+.four p {
+    position: absolute;
+    top: 51.11%;
+    width: 535px;
+    height: 20px;
+    left: 67px;
+    margin-top: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    color: #32323B;
 }
 
 .one {
@@ -679,7 +717,6 @@ H2 {
     display: flex;
     align-items: center;
     color: #35D5C3;
-    border: 1px solid red;
 }
 
 .two {
@@ -698,7 +735,6 @@ H2 {
     display: flex;
     align-items: center;
     color: #35D5C3;
-    border: 1px solid red;
 }
 
 .three {
@@ -717,7 +753,6 @@ H2 {
     display: flex;
     align-items: center;
     color: #35D5C3;
-    border: 1px solid red;
 }
 
 .four {
@@ -736,21 +771,48 @@ H2 {
     display: flex;
     align-items: center;
     color: #35D5C3;
-    border: 1px solid red;
 }
 
-h4 {
+.two h4 {
     position: absolute;
     width: 535px;
     height: 36px;
     left: 67px;
+    top: -12px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
     line-height: 130%;
     color: #1D1D20;
-    border: 1px solid red;
+}
+
+.three h4 {
+    position: absolute;
+    width: 535px;
+    height: 36px;
+    left: 67px;
+    top: -12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    color: #1D1D20;
+}
+
+.four h4 {
+    position: absolute;
+    width: 535px;
+    height: 36px;
+    left: 67px;
+    top: -12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    color: #1D1D20;
 }
 
 /* ! Конец блока Этапы работы----------------------------------------- */
