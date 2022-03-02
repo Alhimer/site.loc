@@ -827,5 +827,95 @@ H2 {
   top: 2132px;
 }
 
+.history_head {
+    position: absolute;
+    width: 550px;
+    height: 93px;
+    left: 685px;
+    top: 2422px;
+    border: 1px solid red;
+}
+
+.history_head p {
+    position: absolute;
+    left: 40.17%;
+    right: 40.19%;
+    top: 0%;
+    bottom: 66.67%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+
+.history_head h3 {
+    position: absolute;
+    left: 14%;
+    right: 13.82%;
+    top: 54.84%;
+    bottom: 0%;
+    width: 400px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+
+.content {
+    position: absolute;
+    width: 1010px;
+    height: 194px;
+    left: 455px;
+    top: 2605px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+
+.point {
+    position: absolute;
+    width: 576px;
+    height: 232px;
+    left: 128px;
+    top: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 220%;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:before {
+    color: #F9ED37;
+    /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
+    content: "\2022";
+    /* Делаем больше, чем основной текст в li */
+    font-size: 45px;
+    font-weight: 700;
+    /* Элемент вырван из потока, выравниваем отрицательным отступом */
+    left: -43px;
+    line-height: 30px;
+    position: absolute;
+}
+
+
 
 /* ! Конец блока История ----------------------------------------------*/
