@@ -1033,7 +1033,7 @@ ul li:before {
     opacity: 0.9;
 }
 
-/* ! Слайдер */
+/* ! Слайдер -----------------------------------------------------------*/
 
 .carousel-wrapper {
     position: absolute;
@@ -1043,6 +1043,34 @@ ul li:before {
     top: 4064px;
     margin: 0 auto;
     border: 1px solid red;
+}
+
+.carousel-item h2 {
+    position: absolute;
+    width: 704px;
+    height: 32px;
+    left: 191px;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    color: #2E363E;
+}
+
+.carousel-item p {
+    position: absolute;
+    width: 807px;
+    height: 178px;
+    left: 191px;
+    top: 164px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    color: #32323B;
 }
 
 .carousel-item {
@@ -1057,7 +1085,7 @@ ul li:before {
 }
 
 .arrow {
-    border: solid black;
+    border: solid #FFFFFF;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 12px;
@@ -1078,7 +1106,7 @@ ul li:before {
 }
 
 .light {
-    color: #2E363E;
+    color: #fff;
 }
 
 @media (max-width: 480px) {
@@ -1123,7 +1151,7 @@ ul li:before {
     opacity: 1;
 }
 
-/* ! Конец слайдера */
+/* ! Конец слайдера --------------------------------------------------*/
 
 
-/* ! Конец блока Отзывы ---------------------------------------------- */
+/* ! Конец блока Отзывы ----------------------------------------------*/
