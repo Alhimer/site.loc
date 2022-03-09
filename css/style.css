@@ -1084,12 +1084,23 @@ ul li:before {
     transition: all 0.5s ease-in-out;
 }
 
-.arrow {
-    border: solid #FFFFFF;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 12px;
+.slider_left {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 66px;
+    top: 171px;
 }
+
+/* .arrow {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 1122px;
+    top: 171px;
+    background: #1D1D20;
+    border-radius: 100px;
+} */
 
 .arrow-prev {
     left: -30px;
