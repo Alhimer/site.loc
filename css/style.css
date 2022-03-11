@@ -1092,7 +1092,15 @@ ul li:before {
     top: 171px;
 }
 
-/* .arrow {
+.slider_right {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 1118px;
+  top: 170px;
+}
+
+.arrow {
     position: absolute;
     width: 66px;
     height: 66px;
@@ -1100,7 +1108,7 @@ ul li:before {
     top: 171px;
     background: #1D1D20;
     border-radius: 100px;
-} */
+}
 
 .arrow-prev {
     left: -30px;
