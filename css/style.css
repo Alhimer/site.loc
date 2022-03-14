@@ -820,11 +820,11 @@ H2 {
 /* ! Блок История *-----------------------------------------------------*/
 
 .fon_history {
-  position: absolute;
-  width: 1920px;
-  height: 1245px;
-  left: 0px;
-  top: 2132px;
+    position: absolute;
+    width: 1920px;
+    height: 1245px;
+    left: 0px;
+    top: 2132px;
 }
 
 .history_head {
@@ -1093,11 +1093,11 @@ ul li:before {
 }
 
 .slider_right {
-  position: absolute;
-  width: 66px;
-  height: 66px;
-  left: 1118px;
-  top: 170px;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 1118px;
+    top: 170px;
 }
 
 .arrow {
