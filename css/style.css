@@ -1,7 +1,7 @@
 .wrapper {
     margin: 0 auto;
     max-width: 1920px;
-    height: 5000px;
+    height: auto;
     border: 1px solid #000;
     position: relative;
 }
@@ -935,7 +935,6 @@ ul li:before {
     height: 93px;
     left: 685px;
     top: 3442px;
-    border: 1px solid red;
 }
 
 .customers_head p {
@@ -951,7 +950,6 @@ ul li:before {
     line-height: 130%;
     text-align: center;
     color: #32323B;
-    border: 1px solid red;
 }
 
 .customers_head h3 {
@@ -966,7 +964,6 @@ ul li:before {
     line-height: 130%;
     text-align: center;
     color: #1D1D20;
-    border: 1px solid red;
 }
 
 .customers_logo {
@@ -988,7 +985,6 @@ ul li:before {
     height: 93px;
     left: 685px;
     top: 3881px;
-    border: 1px solid red;
 }
 
 .reviews p {
@@ -1004,7 +1000,6 @@ ul li:before {
     line-height: 130%;
     text-align: center;
     color: #32323B;
-    border: 1px solid red;
 }
 
 .reviews h3 {
@@ -1021,7 +1016,6 @@ ul li:before {
     line-height: 130%;
     text-align: center;
     color: #1D1D20;
-    border: 1px solid red;
 }
 
 .kav {
@@ -1084,27 +1078,11 @@ ul li:before {
     transition: all 0.5s ease-in-out;
 }
 
-.slider_left {
-    position: absolute;
-    width: 66px;
-    height: 66px;
-    left: 66px;
-    top: 171px;
-}
-
-.slider_right {
-    position: absolute;
-    width: 66px;
-    height: 66px;
-    left: 1118px;
-    top: 170px;
-}
-
 .arrow {
     position: absolute;
     width: 66px;
     height: 66px;
-    left: 1122px;
+    left: 1160px;
     top: 171px;
     background: #1D1D20;
     border-radius: 100px;
@@ -1174,3 +1152,32 @@ ul li:before {
 
 
 /* ! Конец блока Отзывы ----------------------------------------------*/
+
+
+.chel_vopr {
+    position: absolute;
+    width: 513px;
+    height: 662px;
+    left: 403px;
+    top: 4825px;
+}
+
+
+
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 568px;
+    left: 0px;
+    top: 5312px;
+}
+
+
+.footer_logo {
+    position: absolute;
+    left: 23.7%;
+    right: 66.2%;
+    top: 5572px;
+    bottom: 266px;
+}
