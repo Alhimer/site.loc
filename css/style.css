@@ -1346,6 +1346,26 @@ H2 {
 
 /* ! Конец блока Прогресс -------------------------------------------- */
 
+/* ! Блок Обратная связь --------------------------------------------- */
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    position: absolute;
+    width: 500px;
+    height: 529px;
+    left: 965px;
+    top: 4825px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+
+/* ! Конец блока Обратная связь -------------------------------------- */
+
 /* ! Блок Футер ------------------------------------------------------ */
 
 .footer {
