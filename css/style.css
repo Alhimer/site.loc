@@ -894,11 +894,11 @@ H2 {
     color: #FFFFFF;
 }
 
-ul {
+.point ul {
     list-style-type: none;
 }
 
-ul li:before {
+.point ul li:before {
     color: #F9ED37;
     /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
     content: "\2022";
@@ -1348,18 +1348,6 @@ ul li:before {
 
 /* ! Блок Футер ------------------------------------------------------ */
 
-.footer_menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    width: 56px;
-    height: 146px;
-    left: 761px;
-    top: 5572px;
-}
-
 .footer {
     position: absolute;
     width: 1920px;
@@ -1372,8 +1360,21 @@ ul li:before {
     position: absolute;
     left: 23.7%;
     right: 66.2%;
-    top: 5572px;
-    bottom: 266px;
+    top: 260px;
+    bottom: 267px;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 56px;
+    height: 146px;
+    left: 761px;
+    top: 260px;
+    bottom: 162px;
+    border: 1px solid red;
 }
 
 .footer_menu p {
@@ -1385,19 +1386,17 @@ ul li:before {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 130%;
     color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
 }
 
 .footer_menu a {
     text-decoration: none;
 }
 
-.footer_menu li {
+.footer_menu li a {
     position: static;
     width: 56px;
     height: 94px;
@@ -1407,12 +1406,8 @@ ul li:before {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 130%;
+    line-height: 230%;
     color: #FFFFFF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 0px;
 }
 
 .footer_contacts {
@@ -1424,8 +1419,9 @@ ul li:before {
     width: 140px;
     height: 177px;
     left: 965px;
-    top: 5572px;
+    top: 260px;
     border: 1px solid red;
+    bottom: 131px;
 }
 
 .footer_contacts h1 {
@@ -1449,19 +1445,18 @@ ul li:before {
 .footer_contacts p {
     position: static;
     width: 140px;
-    height: 125px;
+    height: 100px;
     left: 0px;
     top: 52px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 130%;
+    line-height: 13%;
     color: #000;
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 30px 0px;
 }
 
 /* ! Конец блока футер ----------------------------------------------- */
