@@ -1358,10 +1358,13 @@ H2 {
 
 .footer_logo {
     position: absolute;
-    left: 23.7%;
+    left: 455px;
     right: 66.2%;
     top: 260px;
     bottom: 267px;
+    border: 1px solid red;
+    height: 42px;
+    width: 194px;
 }
 
 .footer_menu {
@@ -1406,7 +1409,7 @@ H2 {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 230%;
+    line-height: 130%;
     color: #FFFFFF;
 }
 
@@ -1434,7 +1437,7 @@ H2 {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 130%;
+    line-height: 13%;
     color: #FFFFFF;
     flex: none;
     order: 0;
@@ -1452,7 +1455,7 @@ H2 {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 13%;
+    line-height: 130%;
     color: #000;
     flex: none;
     order: 1;
