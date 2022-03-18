@@ -1406,7 +1406,7 @@ H2 {
     position: static;
     width: 420px;
     height: 28px;
-    left: calc(50% - 420px/2);
+    left: 40px;
     top: 381px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -1423,6 +1423,28 @@ H2 {
 
 .feedback span {
     color: #35D5C3;
+}
+
+.feedback_button {
+    height: 60px;
+    width: 245px;
+    left: 40px;
+    top: 429px;
+    border-color: #F9ED37;
+    position: absolute;
+    text-decoration: none;
+    background: #F9ED37;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
 }
 
 /* ! Конец блока Обратная связь -------------------------------------- */
