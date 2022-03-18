@@ -1447,4 +1447,137 @@ H2 {
     flex-grow: 0;
 }
 
+.footer_button a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    width: 194px;
+    height: 38px;
+    left: 1271px;
+    bottom: 270px;
+    border: 1px solid #F9ED37;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 167px;
+    height: 13px;
+    left: 353px;
+    top: 503px;
+}
+
+.copy p {
+    position: static;
+    width: 32px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.copy span {
+    position: static;
+    width: 115px;
+    height: 13px;
+    left: 52px;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.vline3 {
+    border-left: 2px solid #35D5C3;
+    height: 70px;
+    position: absolute;
+    width: 0px;
+    height: 13px;
+    left: 52px;
+    top: 0px;
+    border-radius: 1px;
+}
+
+.politika {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 341px;
+    height: 13px;
+    left: 353px;
+    top: 536px;
+}
+
+.politika p {
+    position: static;
+    width: 165px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.politika span {
+    position: static;
+    width: 166px;
+    height: 13px;
+    left: 175px;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
 /* ! Конец блока футер ----------------------------------------------- */
