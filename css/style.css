@@ -1447,7 +1447,7 @@ H2 {
     flex-grow: 0;
 }
 
-.footer_button a {
+.footer_button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1461,6 +1461,7 @@ H2 {
     border: 1px solid #F9ED37;
     box-sizing: border-box;
     border-radius: 4px;
+    top: calc(50% - 18px/2);
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -1471,6 +1472,10 @@ H2 {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.footer_button:hover {
+    background: #F9ED37;
 }
 
 .copy {
