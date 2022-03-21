@@ -968,11 +968,181 @@ H2 {
 
 .customers_logo {
     position: absolute;
-    width: 1009px;
-    height: 166px;
-    left: 455px;
+    width: 1195px;
+    height: 164px;
+    left: 362px;
     top: 3625px;
     border: 1px solid red;
+}
+
+.churilovo {
+    position: static;
+    width: 231px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    filter: grayscale(1);
+}
+
+.churilovo:hover {
+    filter: grayscale(0);
+}
+
+.martin {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 231px;
+height: 77px;
+left: 241px;
+top: 0px;
+filter: grayscale(1);
+}
+
+.martin:hover {
+    filter: grayscale(0);
+}
+
+.gora {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 231px;
+    height: 77px;
+    left: 482px;
+    top: 0px;
+    filter: grayscale(1);
+}
+
+.gora:hover {
+    filter: grayscale(0);
+}
+
+.lotos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 231px;
+    height: 77px;
+    left: 723px;
+    top: 0px;
+    filter: grayscale(1);
+}
+
+.lotos:hover {
+    filter: grayscale(0);
+}
+
+.esk {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 231px;
+    height: 77px;
+    left: 964px;
+    top: 0px;
+    filter: grayscale(1);
+}
+
+.esk:hover {
+    filter: grayscale(0);
+}
+
+.str {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 231px;
+    height: 77px;
+    left: 0px;
+    top: 87px;
+    filter: grayscale(1);
+}
+
+.str:hover {
+    filter: grayscale(0);
+}
+
+.zl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 231px;
+    height: 77px;
+    left: 241px;
+    top: 87px;
+    filter: grayscale(1);
+}
+
+.zl:hover {
+    filter: grayscale(0);
+}
+
+.drsu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 231px;
+    height: 77px;
+    left: 482px;
+    top: 87px;
+    filter: grayscale(1);
+}
+
+.drsu:hover {
+    filter: grayscale(0);
+}
+
+.ukk {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 231px;
+    height: 77px;
+    left: 723px;
+    top: 87px;
+    filter: grayscale(1);
+}
+
+.ukk:hover {
+    filter: grayscale(0);
+}
+
+.gagarin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 231px;
+    height: 77px;
+    left: 964px;
+    top: 87px;
+    filter: grayscale(1);
+}
+
+.gagarin:hover {
+    filter: grayscale(0);
 }
 
 /* ! Конец блока Клиенты ----------------------------------------------*/
