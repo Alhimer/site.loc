@@ -1646,7 +1646,7 @@ H2 {
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 341px;
+    width: 345px;
     height: 13px;
     left: 353px;
     top: 536px;
@@ -1654,7 +1654,7 @@ H2 {
 
 .politika p {
     position: static;
-    width: 165px;
+    width: 175px;
     height: 13px;
     left: 0px;
     top: 0px;
@@ -1668,6 +1668,7 @@ H2 {
     order: 0;
     flex-grow: 0;
     margin: 0px 10px;
+    border: 1px solid red;
 }
 
 .politika span {
