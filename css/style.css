@@ -1521,7 +1521,6 @@ filter: grayscale(1);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 40px;
     position: absolute;
     width: 500px;
     height: 529px;
@@ -1530,11 +1529,10 @@ filter: grayscale(1);
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 4px;
-    border: 1px solid red;
 }
 
 .feedback h4 {
-    position: static;
+    position: absolute;
     width: 420px;
     height: 72px;
     left: calc(50% - 420px/2);
@@ -1549,11 +1547,10 @@ filter: grayscale(1);
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 20px 0px;
 }
 
 .feedback h1 {
-    position: static;
+    position: absolute;
     width: 420px;
     height: 22px;
     left: calc(50% - 420px/2);
@@ -1571,7 +1568,7 @@ filter: grayscale(1);
 }
 
 .feedback p {
-    position: static;
+    position: absolute;
     width: 420px;
     height: 28px;
     left: 40px;
@@ -1586,7 +1583,6 @@ filter: grayscale(1);
     order: 4;
     align-self: stretch;
     flex-grow: 0;
-    margin: 20px 0px;
 }
 
 .feedback span {
@@ -1619,31 +1615,39 @@ filter: grayscale(1);
     color: #C4C4C4;
 }
 
-.message {
+.tel:focus {
+    border: 1px solid #35D5C3;
+    margin: -1px;
+}
+
+textarea {
     position: absolute;
-    width: 380px;
-    height: 127px;
+    width: 77%;
+    height: 20%;
     left: calc(50% - 420px/2);
     top: 234px;
     background: #E5E5E5;
     border-radius: 4px;
-    padding: 0px 20px 0px 20px;
+    resize: none;
 }
 
-.message::placeholder {
+textarea::placeholder {
     position: absolute;
-    width: 115px;
-    height: 115px;
-    left: 20px;
-    top: 24px;
-    bottom: 24px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 130%;
-    align-items: ;
     color: #C4C4C4;
+}
+
+textarea[type="message"] {
+    padding: 10px 20px;
+}
+
+textarea:focus {
+    border: 1px solid #35D5C3;
+    margin: -1px;
 }
 
 .feedback_button {
