@@ -309,8 +309,8 @@ H2 {
 
 .u {
     position: absolute;
-    left: 40%;
-    right: 33.83%;
+    left: 232px;
+    right: 232px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -323,8 +323,6 @@ H2 {
 .pred {
     position: relative;
     width: 600px;
-    left: 12.36%;
-    right: 12.36%;
     top: 54.84%;
     bottom: 0%;
     font-family: Montserrat;
