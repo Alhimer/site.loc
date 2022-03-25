@@ -8,6 +8,7 @@ body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0 auto;
 }
 
 .wrapper {
@@ -1167,8 +1168,8 @@ H2 {
 
 .reviews p {
     position: absolute;
-    left: 41.08%;
-    right: 40.92%;
+    left: 225px;
+    right: 225px;
     top: 0%;
     bottom: 66.67%;
     font-family: Montserrat;
@@ -1182,8 +1183,8 @@ H2 {
 
 .reviews h3 {
     position: absolute;
-    left: 25.27%;
-    right: 25.09%;
+    left: 138px;
+    right: 138px;
     top: 54.84%;
     bottom: 0%;
     width: 300px;
@@ -1699,7 +1700,6 @@ textarea:focus {
     height: 568px;
     left: 0px;
     top: 5312px;
-    bottom: 0px;
 }
 
 .footer_logo {
