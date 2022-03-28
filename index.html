@@ -298,68 +298,76 @@
         <div class="chel_vopr">
             <img src="/img/chel_vopr.svg">
         </div>
-        <div class="feedback">
+        < class="feedback">
             <h4>Если остались вопросы, закажите звонок</h4>
             <h1>Менеджер свяжется с вами, в течение дня</h1>
             <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики конфиденциальности</span>
             </p>
-            <div class="form">
-            <input class="tel" type="tel" name="tel" placeholder="Телефон" required>
-            <textarea class="message" type="message" name="message" placeholder="Опишите суть вопроса" required maxlength="500"></textarea>
-            <input class="feedback_button" type="submit" value="Заказать звонок">
+            <form>
+
+                <!--! Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Симметрия">
+                <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
+                <input type="hidden" name="form_subject" value="Footer form">
+                <!--! END Hidden Required Fields -->
+
+                <input class="tel" type="tel" name="tel" placeholder="Телефон" required>
+                <textarea class="message" type="message" name="message" placeholder="Опишите суть вопроса" required maxlength="500"></textarea>
+                <input class="feedback_button" type="submit" value="Заказать звонок">
+            </form>
+        </div>
+
+        <!-- ! Конец блока Обратная связь -->
+
+        <!-- ! Блок Футер -->
+
+        <div class="footer">
+            <div>
+                <img src="/img/footer.svg">
             </div>
-        </div>
-
-    <!-- ! Конец блока Обратная связь -->
-
-    <!-- ! Блок Футер -->
-
-    <div class="footer">
-        <div>
-            <img src="/img/footer.svg">
-        </div>
-        <div class="footer_logo">
-            <img src="/img/footer_logo.svg">
-        </div>
-        <div class="footer_menu">
-            <h1>Меню</h1>
-            <ul>
-                <li><a href="#u">Услуги</a></li>
-                <li><a href="#hist">О нас</a></li>
-                <li><a href="#cust">Клиенты</a></li>
-                <li><a href="#rev">Отзывы</a></li>
-            </ul>
-            <div class="footer_contacts">
-                <h1>Контакты</h1>
+            <div class="footer_logo">
+                <img src="/img/footer_logo.svg">
+            </div>
+            <div class="footer_menu">
+                <h1>Меню</h1>
                 <ul>
-                    <li><a href="tel:+7 351 222-01-16">+7 351 222-01-16</a></li>
-                    <li><a
-                            href="mailto:zakaz@u-kk.ru?subject=Заявка на подключение оборудование">zakaz@u-kk.ru</a>
-                    </li>
-                    <li>г. Челябинск</li>
-                    <li>Ул. Татьяничевой, 12 Б</li>
-                    <li>Пн-Пт с 9:00 до 18:00</li>
+                    <li><a href="#u">Услуги</a></li>
+                    <li><a href="#hist">О нас</a></li>
+                    <li><a href="#cust">Клиенты</a></li>
+                    <li><a href="#rev">Отзывы</a></li>
                 </ul>
+                <div class="footer_contacts">
+                    <h1>Контакты</h1>
+                    <ul>
+                        <li><a href="tel:+7 351 222-01-16">+7 351 222-01-16</a></li>
+                        <li><a href="mailto:zakaz@u-kk.ru?subject=Заявка на подключение оборудование">zakaz@u-kk.ru</a>
+                        </li>
+                        <li>г. Челябинск</li>
+                        <li>Ул. Татьяничевой, 12 Б</li>
+                        <li>Пн-Пт с 9:00 до 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <a class="footer_button" href="#">Написать отзыв</a>
+            </div>
+            <div class="copy">
+                <p>©2022</p>
+                <span>Все права защищены</span>
+                <div class="vline3"></div>
+            </div>
+            <div class="politika">
+                <p>Политика в отношении обработки персональных данных</p>
             </div>
         </div>
-        <div>
-            <a class="footer_button" href="#">Написать отзыв</a>
-        </div>
-        <div class="copy">
-            <p>©2022</p>
-            <span>Все права защищены</span>
-            <div class="vline3"></div>
-        </div>
-        <div class="politika">
-            <p>Политика в отношении обработки персональных данных</p>
-        </div>
-    </div>
 
-    <!--! Конец блока Футер-->
+        <!--! Конец блока Футер-->
 
-    </div>
-    </div>
-    </div>
+        </div>
+        </div>
+        </div>
+
+        <script src="js/main.js"></script>
 </body>
 
 </html>
