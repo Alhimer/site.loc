@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
         rel="stylesheet" />
@@ -303,7 +304,7 @@
             <h1>Менеджер свяжется с вами, в течение дня</h1>
             <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики конфиденциальности</span>
             </p>
-            <form>
+            <div class="form">
 
                 <!--! Hidden Required Fields -->
                 <input type="hidden" name="project_name" value="Симметрия">
@@ -313,11 +314,11 @@
 
 
 
-                
+
                 <input class="tel" type="tel" name="tel" placeholder="Телефон" required>
-                <textarea class="message" type="message" name="message" placeholder="Опишите суть вопроса" required maxlength="500"></textarea>
+                <textarea class="message" type="message" name="message" placeholder="Опишите суть вопроса" maxlength="500" required></textarea>
                 <input class="feedback_button" type="submit" value="Заказать звонок">
-            </form>
+            </div>
         </div>
 
         <!-- ! Конец блока Обратная связь -->
