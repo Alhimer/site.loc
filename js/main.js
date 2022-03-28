@@ -12,7 +12,7 @@ $(document).ready(function() {
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
-			}, 1000);
+			}, 100);
 		});
 		return false;
 	});
