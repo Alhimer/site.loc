@@ -317,7 +317,7 @@
                     <input type="hidden" name="form_subject" value="Форма заказа звонка">
                     <!--! END Hidden Required Fields -->
 
-                    <input id="phone" class="tel" type="tel" name="Телефон" placeholder="Телефон" required>
+                    <input id="phone" class="tel" type="tel" name="Телефон клиента" placeholder="Телефон" required>
                     <textarea class="message" type="message" name="Сообщение" placeholder="Опишите суть вопроса"
                         maxlength="500" required></textarea>
                     <input class="feedback_button" type="submit" value="Заказать звонок">
@@ -329,7 +329,7 @@
                         //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
                         $(function () {
                             //2. Получить элемент, к которому необходимо добавить маску
-                            $("#phone").mask("+7 (999) 999-9999");
+                            $("#phone").mask("+7 (999) 999-99-99");
                         });
                     </script>
                 </form>
