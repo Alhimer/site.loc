@@ -38,40 +38,47 @@
                 </h2>
                 <a class="header_button" href="#form1">Оставить заявку</a>
 
+                <!-- ! Форма заказа -->
 
-<a href="#x" class="overlay" id="form1"></a>
- <div class="modal">
-                <img class="cloce" src="img/close.svg">
-                <h4>Оставить заявку</h4>
-                <h1>Менеджер свяжется с вами, в течение дня</h1>
-                <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики конфиденциальности</span>
-                </p>
-                <form id="form_request">
-                    <!--! Hidden Required Fields -->
-                    <input type="hidden" name="project_name" value="Симметрия">
-                    <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
-                    <input type="hidden" name="form_subject" value="Заявка с сайта">
-                    <!--! END Hidden Required Fields -->
+                <a href="#x" class="overlay" id="form1"></a>
+                <div class="modal">
+                    <div>
+                        <img src="img/close.svg" class="close">
+                    </div>
+                    <h4>Оставить заявку</h4>
+                    <h1>Менеджер свяжется с вами, в течение дня</h1>
+                    <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики
+                            конфиденциальности</span>
+                    </p>
+                    <form id="form_request">
+                        <!--! Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Симметрия">
+                        <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
+                        <input type="hidden" name="form_subject" value="Заявка с сайта">
+                        <!--! END Hidden Required Fields -->
 
-                    <input id="phone_request" class="tel_request" type="tel" name="Телефон клиента" placeholder="Телефон" required>
-                    <textarea class="message_request" type="message" name="Сообщение" placeholder="Опишите суть вопроса"
-                        maxlength="500" required></textarea>
-                    <input class="button_request" type="submit" value="Оставить заявку">
+                        <input id="phone_request" class="tel_request" type="tel" name="Телефон клиента"
+                            placeholder="Телефон" required>
+                        <textarea class="message_request" type="message" name="Сообщение"
+                            placeholder="Опишите суть вопроса" maxlength="500" required></textarea>
+                        <input class="button_request" type="submit" value="Отправить">
 
-                    <!--HTML элемент, который будет иметь маску ввода телефонного номера  -->
-                    <!-- <input id="phone" type="text"> -->
-                    <script>
-                        //Код jQuery, установливающий маску для ввода телефона элементу input
-                        //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
-                        $(function () {
-                            //2. Получить элемент, к которому необходимо добавить маску
-                            $("#phone_request").mask("+7 (999) 999-99-99");
-                        });
-                    </script>
-                </form>
-            </div>
+                        <!--HTML элемент, который будет иметь маску ввода телефонного номера  -->
+                        <!-- <input id="phone" type="text"> -->
+                        <script>
+                            //Код jQuery, установливающий маску для ввода телефона элементу input
+                            //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+                            $(function () {
+                                //2. Получить элемент, к которому необходимо добавить маску
+                                $("#phone_request").mask("+7 (999) 999-99-99");
+                            });
+                        </script>
 
+                    </form>
 
+                </div>
+
+                <!-- ! Конец формы заказа -->
 
                 <div class="head_ico_1">
                     <img src="img/head_ico_1.svg">
@@ -403,7 +410,7 @@
                 </div>
             </div>
             <div>
-                <a class="footer_button" href="#">Написать отзыв</a>
+                <a class="footer_button" href="#form2">Написать отзыв</a>
             </div>
             <div class="copy">
                 <p>©2022</p>
@@ -415,6 +422,55 @@
             </div>
         </div>
 
+
+
+        <!-- ! Форма Отзыв -->
+
+                <a href="#x" class="overlay" id="form2"></a>
+                <div class="modal2">
+                    <div>
+                        <img src="img/close.svg" class="close">
+                    </div>
+                    <h4>Отзыв</h4>
+                    <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики конфиденциальности</span>
+                    </p>
+                    <form id="form_feed">
+                        <!--! Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Симметрия">
+                        <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
+                        <input type="hidden" name="form_subject" value="Отзыв клиента">
+                        <!--! END Hidden Required Fields -->
+
+                        <input id="name" class="name" type="name" name="Имя клиента"
+                            placeholder="Имя" required>
+                        <input id="phone_feed" class="tel_feed" type="tel" name="Телефон клиента"
+                            placeholder="Телефон" required>
+                        <input id="mail" class="mail" type="mail" name="Электронная почта клиента"
+                            placeholder="Электронная почта" required>
+                        <textarea class="message_feed" type="message" name="Сообщение"
+                            placeholder="Опишите суть вопроса" maxlength="1000" required></textarea>
+                        <input class="button_feed" type="submit" value="Отправить">
+
+                        <!--HTML элемент, который будет иметь маску ввода телефонного номера  -->
+                        <!-- <input id="phone" type="text"> -->
+                        <script>
+                            //Код jQuery, установливающий маску для ввода телефона элементу input
+                            //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+                            $(function () {
+                                //2. Получить элемент, к которому необходимо добавить маску
+                                $("#phone_feed").mask("+7 (999) 999-99-99");
+                            });
+                        </script>
+
+                    </form>
+
+                </div>
+
+                <!-- ! Конец формы Отзыв -->
+
+
+
+
         <!--! Конец блока Футер-->
 
         </div>
@@ -423,6 +479,8 @@
         <!-- Подключение jQuery плагина Masked Input -->
         <script src="js/jquery.maskedinput.min.js"></script>
         <script src="js/main.js"></script>
+
+      
 </body>
 
 </html>

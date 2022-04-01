@@ -2094,7 +2094,7 @@ textarea:focus {
     background: #FCC02A;
 }
 
-.cloce {
+.close {
     position: absolute;
     width: 38px;
     height: 38px;
@@ -2102,7 +2102,6 @@ textarea:focus {
     top: 38px;
     cursor: pointer;
 }
-
 
 /** стили фона затемнения */
 .overlay {
@@ -2151,3 +2150,280 @@ textarea:focus {
         width: 85%;
     }
 }
+
+/* ! Конец формы Оставить заявку */
+
+/* ! Форма Отзыв */
+
+.modal2 {
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 500px;
+    height: 771px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10001;
+    opacity: 0;
+    background: #FFFFFF;
+}
+
+.modal2 h4 {
+    position: absolute;
+    width: 420px;
+    height: 72px;
+    left: 40px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    color: #1D1D20;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.modal2 p {
+    position: absolute;
+    width: 420px;
+    height: 28px;
+    left: 40px;
+    top: 521px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 130%;
+    color: #1D1D20;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.modal2 span {
+    color: #35D5C3;
+}
+
+.name {
+    position: absolute;
+    width: 76%;
+    height: 40px;
+    left: 40px;
+    top: 116px;
+    background: #E5E5E5;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    padding: 0px 20px 0px 20px;
+}
+
+.name::placeholder {
+    position: absolute;
+    height: 27px;
+    right: 224px;
+    top: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    display: flex;
+    color: #C4C4C4;
+}
+
+.name:focus {
+    border: 1px solid #35D5C3;
+    margin: -1px;
+}
+
+.tel_feed {
+    position: absolute;
+    width: 76%;
+    height: 40px;
+    left: 40px;
+    top: 175px;
+    background: #E5E5E5;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    padding: 0px 20px 0px 20px;
+}
+
+.tel_feed::placeholder {
+    position: absolute;
+    height: 27px;
+    right: 224px;
+    top: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    display: flex;
+    color: #C4C4C4;
+}
+
+.tel_feed:focus {
+    border: 1px solid #35D5C3;
+    margin: -1px;
+}
+
+.mail {
+    position: absolute;
+    width: 76%;
+    height: 40px;
+    left: 40px;
+    top: 234px;
+    background: #E5E5E5;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    padding: 0px 20px 0px 20px;
+}
+
+.mail::placeholder {
+    position: absolute;
+    height: 27px;
+    right: 224px;
+    top: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    display: flex;
+    color: #C4C4C4;
+}
+
+.mail:focus {
+    border: 1px solid #35D5C3;
+    margin: -1px;
+}
+
+.message_feed {
+    position: absolute;
+    width: 76%;
+    height: 24%;
+    left: 40px;
+    top: 293px;
+    background: #E5E5E5;
+    border-radius: 4px;
+    resize: none;
+}
+
+.message_feed::placeholder {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    color: #C4C4C4;
+}
+
+.message_feed[type="message"] {
+    padding: 10px 20px;
+}
+
+.message_feed:focus {
+    border: 1px solid #35D5C3;
+    margin: -1px;
+}
+
+.button_feed {
+    height: 60px;
+    width: 245px;
+    left: 40px;
+    top: 671px;
+    border-color: #F9ED37;
+    position: absolute;
+    text-decoration: none;
+    background: #F9ED37;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button_feed:hover {
+    background: #FCF6A0;
+}
+
+.button_feed:focus {
+    background: #FCC02A;
+}
+
+.close {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 422px;
+    top: 38px;
+    cursor: pointer;
+}
+
+/** стили фона затемнения */
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    visibility: hidden;
+    /* фон затемнения */
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    position: fixed;
+    /* фиксированное позиционирование */
+    /* трансформация прозрачности при открытии  */
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+/** стили модального блока */
+
+.overlay:target+.modal2 {
+    top: 25%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* планшет */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .modal2 {
+        width: 95%;
+    }
+}
+
+/* мобильный */
+@media only screen and (min-width: 459px) and (max-width: 767px) {
+    .modal2 {
+        width: 85%;
+    }
+}
+
+/* ! Конец формы Отзыв */
