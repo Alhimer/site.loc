@@ -392,6 +392,91 @@ H2 {
     display: block;
 }
 
+
+
+
+
+
+
+
+
+
+#press {
+    display: none;
+}
+
+.block1 {
+    background: #fff;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 20px;
+    position: static;
+    width: 806px;
+    height: 393px;
+    left: 237px;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+    top: 300px;
+}
+
+.block1 span {
+    position: static;
+    width: 766px;
+    height: 331px;
+    left: 20px;
+    top: 52px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1D1D20;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.spoiler>.block1 {
+    display: none;
+    position: absolute;
+}
+
+.spoiler>input:checked+.block1 {
+    display: block;
+}
+
+/* label {
+    color: blue;
+    font-size: 1.5em;
+} */
+
+label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .skud {
     position: absolute;
     width: 296px;

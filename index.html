@@ -115,13 +115,37 @@
                 <p class="pred">Посмотрите, что мы предлагаем</p>
             </div>
             <div class="block_uslugi">
-                <div class="cam">
-                    <div class="block"></div>
-                    <p>Установка, интеграция камер и систем видеонаблюдения</p>
-                    <img src="img/cam.svg">
-                    <div class="krug_cam">
+
+
+                <label for="press">
+                    <div class="cam">
+                        <div class="spoiler">
+                            <input type="checkbox" id="press">
+                            <div class="block1">
+                                <br>
+                                <span>Установка системы видеонаблюдения является одним из первых шагов к осуществлению
+                                    безопасности любого предприятия. На сегодняшний день данный вид защиты объекта
+                                    настолько продвинулся в развитии, что с его помощью стало возможно вести визуальный
+                                    контроль в реальном времени из любой точки мира, достаточно иметь устройство
+                                    с интернетом. Современные видеосистемы позволяют интегрироваться с другими системами
+                                    защиты, например СКУД, что позволяет оборудованию работать в синергии.
+                                    Видеонаблюдение «под ключ» это:
+                                    Формирование технического задания
+                                    Проектирование
+                                    Подбор оборудование
+                                    Монтаж</span></div>
+                        </div>
+                        <div class="block"></div>
+                        <p>Установка, интеграция камер и систем видеонаблюдения</p>
+                        <img src="img/cam.svg">
+                        <div class="krug_cam">
+                        </div>
+
+
+
                     </div>
-                </div>
+                </label>
+
                 <div class="skud">
                     <div class="block"></div>
                     <p>Установка систем контроля и управления доступом (СКУД)</p>
@@ -426,47 +450,46 @@
 
         <!-- ! Форма Отзыв -->
 
-                <a href="#x" class="overlay" id="form2"></a>
-                <div class="modal2">
-                    <div>
-                        <img src="img/close.svg" class="close">
-                    </div>
-                    <h4>Отзыв</h4>
-                    <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики конфиденциальности</span>
-                    </p>
-                    <form id="form_feed">
-                        <!--! Hidden Required Fields -->
-                        <input type="hidden" name="project_name" value="Симметрия">
-                        <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
-                        <input type="hidden" name="form_subject" value="Отзыв клиента">
-                        <!--! END Hidden Required Fields -->
+        <a href="#x" class="overlay" id="form2"></a>
+        <div class="modal2">
+            <div>
+                <img src="img/close.svg" class="close">
+            </div>
+            <h4>Отзыв</h4>
+            <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики конфиденциальности</span>
+            </p>
+            <form id="form_feed">
+                <!--! Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Симметрия">
+                <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
+                <input type="hidden" name="form_subject" value="Отзыв клиента">
+                <!--! END Hidden Required Fields -->
 
-                        <input id="name" class="name" type="name" name="Имя клиента"
-                            placeholder="Имя" required>
-                        <input id="phone_feed" class="tel_feed" type="tel" name="Телефон клиента"
-                            placeholder="Телефон" required>
-                        <input id="mail" class="mail" type="mail" name="Электронная почта клиента"
-                            placeholder="Электронная почта" required>
-                        <textarea class="message_feed" type="message" name="Сообщение"
-                            placeholder="Опишите суть вопроса" maxlength="1000" required></textarea>
-                        <input class="button_feed" type="submit" value="Отправить">
+                <input id="name" class="name" type="name" name="Имя клиента" placeholder="Имя" required>
+                <input id="phone_feed" class="tel_feed" type="tel" name="Телефон клиента" placeholder="Телефон"
+                    required>
+                <input id="mail" class="mail" type="mail" name="Электронная почта клиента"
+                    placeholder="Электронная почта" required>
+                <textarea class="message_feed" type="message" name="Сообщение" placeholder="Опишите суть вопроса"
+                    maxlength="1000" required></textarea>
+                <input class="button_feed" type="submit" value="Отправить">
 
-                        <!--HTML элемент, который будет иметь маску ввода телефонного номера  -->
-                        <!-- <input id="phone" type="text"> -->
-                        <script>
-                            //Код jQuery, установливающий маску для ввода телефона элементу input
-                            //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
-                            $(function () {
-                                //2. Получить элемент, к которому необходимо добавить маску
-                                $("#phone_feed").mask("+7 (999) 999-99-99");
-                            });
-                        </script>
+                <!--HTML элемент, который будет иметь маску ввода телефонного номера  -->
+                <!-- <input id="phone" type="text"> -->
+                <script>
+                    //Код jQuery, установливающий маску для ввода телефона элементу input
+                    //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+                    $(function () {
+                        //2. Получить элемент, к которому необходимо добавить маску
+                        $("#phone_feed").mask("+7 (999) 999-99-99");
+                    });
+                </script>
 
-                    </form>
+            </form>
 
-                </div>
+        </div>
 
-                <!-- ! Конец формы Отзыв -->
+        <!-- ! Конец формы Отзыв -->
 
 
 
@@ -480,7 +503,7 @@
         <script src="js/jquery.maskedinput.min.js"></script>
         <script src="js/main.js"></script>
 
-      
+
 </body>
 
 </html>
