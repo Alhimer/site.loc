@@ -468,7 +468,6 @@ H2 {
     position: absolute;
 }
 
-
 .spoiler>input:checked+.block1 {
     display: block;
 }
@@ -767,6 +766,11 @@ label:hover {
     font-size: 17px;
     line-height: 130%;
     color: #32323B;
+}
+
+.block8 {
+    z-index: 100;
+    margin-top: 1000px;
 }
 
 .two p {
@@ -1998,7 +2002,7 @@ textarea:focus {
     top: 536px;
 }
 
-.politika p {
+.politika a {
     position: static;
     width: 308px;
     height: 13px;
@@ -2014,11 +2018,38 @@ textarea:focus {
     order: 0;
     flex-grow: 0;
     margin: 0px 10px;
+    text-decoration: none;
 }
 
-/* .pers {
-    display: none;
-} */
+.polit h1 {
+    position: absolute;
+    height: 62px;
+    width: 602px;
+    left: 659px;
+    top: 939px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #1D1D20;
+}
+
+.polit span {
+    position: absolute;
+    width: 1010px;
+    height: 5000px;
+    left: 455px;
+    top: 1091px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    color: #1D1D20;
+}
+
 /* ! Конец блока футер ----------------------------------------------- */
 
 
