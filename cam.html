@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css\reset.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <title>Симметрия</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#32323b">
+    <meta name="apple-mobile-web-app-title" content="Монтаж комплексных систем безопасности">
+    <meta name="application-name" content="Монтаж комплексных систем безопасности">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div="wrapper">
+
+        <!-- ! Шапка сайта -->
+
+        <div class="header">
+            <div class="header_logo">
+                <a href="index.html"><img src="img/logo.svg" alt="Симметрия"></a>
+            </div>
+            <div class="header_fon">
+                <img src="img/Vector.png" class="header_bac">
+                <h2>Монтаж комплексной системы безопасности с интеграцией <span class="color_text">«под ключ»</span>
+                </h2>
+                <a class="header_button" href="#form1">Оставить заявку</a>
+
+                <!-- ! Форма заказа -->
+
+                <a href="#x" class="overlay" id="form1"></a>
+                <div class="modal">
+                    <div>
+                        <img src="img/close.svg" class="close">
+                    </div>
+                    <h4>Оставить заявку</h4>
+                    <h1>Менеджер свяжется с вами, в течение дня</h1>
+                    <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text"><a
+                                href="/privacy_policy.html">политики конфиденциальности</a></span>
+                    </p>
+                    <form id="form_request">
+                        <!--! Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Симметрия">
+                        <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
+                        <input type="hidden" name="form_subject" value="Заявка с сайта">
+                        <!--! END Hidden Required Fields -->
+
+                        <input id="phone_request" class="tel_request" type="tel" name="Телефон клиента"
+                            placeholder="Телефон" required>
+                        <textarea class="message_request" type="message" name="Сообщение"
+                            placeholder="Опишите суть вопроса" maxlength="500" required></textarea>
+                        <input class="button_request" type="submit" value="Отправить">
+
+                        <!--HTML элемент, который будет иметь маску ввода телефонного номера  -->
+                        <!-- <input id="phone" type="text"> -->
+                        <script>
+                            //Код jQuery, установливающий маску для ввода телефона элементу input
+                            //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+                            $(function () {
+                                //2. Получить элемент, к которому необходимо добавить маску
+                                $("#phone_request").mask("+7 (999) 999-99-99");
+                            });
+                        </script>
+
+                    </form>
+
+                </div>
+
+                <!-- ! Конец формы заказа -->
+
+                <div class="head_ico_1">
+                    <img src="img/head_ico_1.svg">
+                    <p>Гарантия до 3-х лет на все виды работ</p>
+                </div>
+                <div class="head_ico_2">
+                    <img src="img/head_ico_2.svg">
+                    <p>Опыт работы более 13 лет</p>
+                </div>
+                <div class="head_ico_3">
+                    <img src="img/head_ico_3.svg">
+                    <p>Качественное  оборудование</p>
+                </div>
+                <div class="head_ico_4">
+                    <img src="img/head_ico_4.svg">
+                    <p>Бесплатный выезд специалиста</p>
+                </div>
+                <img src="img/camera.png" class="camera">
+                <div class="scroll">
+                    <span></span>
+                </div>
+                <div class="vline"></div>
+                <div class="vline1"></div>
+                <div class="vline2"></div>
+            </div>
+        </div>
+
+        <div class="cam_block">
+            <h1>Установка, интеграция камер и систем видеонаблюдения</h1>
+        </div>
+
+
+
+
+
+        <!-- ! Конец блока Шапка сайта -->
+        <d <div class="chel_vopr">
+            <img src="/img/chel_vopr.svg">
+            </div>
+            <div class="feedback">
+                <h4>Если остались вопросы, закажите звонок</h4>
+                <h1>Менеджер свяжется с вами, в течение дня</h1>
+                <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики
+                        конфиденциальности</span>
+                </p>
+                <form id="form">
+                    <!--! Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Симметрия">
+                    <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
+                    <input type="hidden" name="form_subject" value="Форма заказа звонка">
+                    <!--! END Hidden Required Fields -->
+
+                    <input id="phone" class="tel" type="tel" name="Телефон клиента" placeholder="Телефон" required>
+                    <textarea class="message" type="message" name="Сообщение" placeholder="Опишите суть вопроса"
+                        maxlength="500" required></textarea>
+                    <input class="feedback_button" type="submit" value="Заказать звонок">
+
+                    <!--HTML элемент, который будет иметь маску ввода телефонного номера  -->
+                    <input id="phone" type="text">
+                    <script>
+                        //Код jQuery, установливающий маску для ввода телефона элементу input
+                        //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+                        $(function () {
+                            //2. Получить элемент, к которому необходимо добавить маску
+                            $("#phone").mask("+7 (999) 999-99-99");
+                        });
+                    </script>
+                </form>
+            </div>
+
+            <!-- ! Конец блока Обратная связь -->
+            </div>
+            <!-- ! Блок Футер -->
+
+            <div class="footer">
+                <div>
+                    <img src="/img/footer.svg">
+                </div>
+                <div class="footer_logo">
+                    <img src="/img/footer_logo.svg">
+                </div>
+                <div class="footer_menu">
+                    <h1>Меню</h1>
+                    <ul>
+                        <li><a href="#u">Услуги</a></li>
+                        <li><a href="#hist">О нас</a></li>
+                        <li><a href="#cust">Клиенты</a></li>
+                        <li><a href="#rev">Отзывы</a></li>
+                    </ul>
+                    <div class="footer_contacts">
+                        <h1>Контакты</h1>
+                        <ul>
+                            <li><a href="tel:+7 351 222-01-16">+7 351 222-01-16</a></li>
+                            <li><a
+                                    href="mailto:zakaz@u-kk.ru?subject=Заявка на подключение оборудования">zakaz@u-kk.ru</a>
+                            </li>
+                            <li>г. Челябинск</li>
+                            <li>Ул. Татьяничевой, 12 Б</li>
+                            <li>Пн-Пт с 9:00 до 18:00</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <a class="footer_button" href="#form2">Написать отзыв</a>
+                </div>
+                <div class="copy">
+                    <p>©2022</p>
+                    <span>Все права защищены</span>
+                    <div class="vline3"></div>
+                </div>
+                <div class="politika">
+                    <a href="/privacy_policy.html">Политика в отношении обработки персональных данных</a>
+                </div>
+            </div>
+
+            <!-- ! Форма Отзыв -->
+
+            <a href="#x" class="overlay" id="form2"></a>
+            <div class="modal2">
+                <div>
+                    <img src="img/close.svg" class="close">
+                </div>
+                <h4>Отзыв</h4>
+                <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики
+                        конфиденциальности</span>
+                </p>
+                <form id="form_feed">
+                    <!--! Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Симметрия">
+                    <input type="hidden" name="admin_email" value="novikov-nv@u-kk.ru">
+                    <input type="hidden" name="form_subject" value="Отзыв клиента">
+                    <!--! END Hidden Required Fields -->
+
+                    <input id="name" class="name" type="name" name="Имя клиента" placeholder="Имя" required>
+                    <input id="phone_feed" class="tel_feed" type="tel" name="Телефон клиента" placeholder="Телефон"
+                        required>
+                    <input id="mail" class="mail" type="mail" name="Электронная почта клиента"
+                        placeholder="Электронная почта" required>
+                    <textarea class="message_feed" type="message" name="Сообщение" placeholder="Опишите суть вопроса"
+                        maxlength="1000" required></textarea>
+                    <input class="button_feed" type="submit" value="Отправить">
+
+                    <!--HTML элемент, который будет иметь маску ввода телефонного номера  -->
+                    <!-- <input id="phone" type="text"> -->
+                    <script>
+                        //Код jQuery, установливающий маску для ввода телефона элементу input
+                        //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+                        $(function () {
+                            //2. Получить элемент, к которому необходимо добавить маску
+                            $("#phone_feed").mask("+7 (999) 999-99-99");
+                        });
+                    </script>
+
+                </form>
+
+            </div>
+
+            <!-- ! Конец формы Отзыв -->
+
+            <!--! Конец блока Футер-->
+
+            </div>
+
+
+            <!-- Подключение библиотеки jQuery -->
+            <script src="js/jquery.js"></script>
+            <!-- Подключение jQuery плагина Masked Input -->
+            <script src="js/jquery.maskedinput.min.js"></script>
+            <script src="js/main.js"></script>
+
+            <script>
+                $(".extremum-click").click(function () {
+                    $(this).siblings(".extremum-slide").slideToggle("fast");
+                });
+            </script>
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+            </script>
+</body>
+
+</html>
