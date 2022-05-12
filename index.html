@@ -47,8 +47,8 @@
                     </div>
                     <h4>Оставить заявку</h4>
                     <h1>Менеджер свяжется с вами, в течение дня</h1>
-                    <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text">политики
-                            конфиденциальности</span>
+                    <p>Заказывая звонок, вы соглашаетесь с условиями <span class="color_text"><a
+                                href="/privacy_policy.html">политики конфиденциальности</a></span>
                     </p>
                     <form id="form_request">
                         <!--! Hidden Required Fields -->
@@ -114,40 +114,23 @@
                 <p id="u" class="u">Услуги</p>
                 <p class="pred">Посмотрите, что мы предлагаем</p>
             </div>
-            <div class="block_uslugi">
+            <class="block_uslugi">
 
 
                 <label for="press">
                     <div class="cam">
-                        
-                        <!-- <div class="spoiler">
-                            <input type="checkbox" id="press">
-                            <div class="block1">
-                                <h1>Что такое система видеонаблюдения?</h1>
-                                <p>Установка системы видеонаблюдения является одним из первых шагов к осуществлению
-                                    безопасности любого предприятия. На сегодняшний день данный вид защиты объекта
-                                    настолько продвинулся в развитии, что с его помощью стало возможно вести визуальный
-                                    контроль в реальном времени из любой точки мира, достаточно иметь устройство
-                                    с интернетом. Современные видеосистемы позволяют интегрироваться с другими системами
-                                    защиты, например СКУД, что позволяет оборудованию работать в синергии.
-                                    Видеонаблюдение «под ключ» это:
-                                    Формирование технического задания
-                                    Проектирование
-                                    Подбор оборудование
-                                    Монтаж
-                                </p>
-                                <h1>Где устанавливается система видеонаблюдения?</h1>
-                                <p>
-                                    <ul>
-                                        <li>Офисы и склады</li>
-                                        <li>Бизнес-центры</li>
-                                        <li>Промышленные объекты</li>
-                                        <li>Развлекательные центры</li>
-                                        <li>Загородные дома</li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div> -->
+
+
+                        <script type="text/javascript">
+$(document).ready(function(){
+$('.spoiler-body').hide();
+$('.spoiler-title').click(function(){
+    $(this).next().toggle()});
+});
+</script>
+
+
+
                         <div class="block"></div>
                         <p>Установка, интеграция камер и систем видеонаблюдения</p>
                         <img src="img/cam.svg">
@@ -155,12 +138,10 @@
                         </div>
                     </div>
                 </label>
-<h1 class="extremum-click">Тест</h1>
-                        <div class="extremum-slide">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam deserunt eligendi
-                            repellendus nam, ea corrupti aspernatur laborum, maxime obcaecati voluptates architecto?
-                            Natus porro, mollitia culpa amet iure saepe cupiditate optio!
-                        </div>
+<div class="spoiler-body">
+    Установка, интеграция камер и систем видеонаблюдения
+</div>
+
                 <div class="skud">
                     <div class="block"></div>
                     <p>Установка систем контроля и управления доступом (СКУД)</p>
@@ -512,6 +493,8 @@
         <!--! Конец блока Футер-->
 
         </div>
+
+
         <!-- Подключение библиотеки jQuery -->
         <script src="js/jquery.js"></script>
         <!-- Подключение jQuery плагина Masked Input -->
@@ -523,6 +506,7 @@
                 $(this).siblings(".extremum-slide").slideToggle("fast");
             });
         </script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </body>
 
 </html>
